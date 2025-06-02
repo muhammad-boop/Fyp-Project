@@ -1,0 +1,52 @@
+.seatselection-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.seatselection {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.seats,
+.seats2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    font-weight: bold;
+    margin: auto;
+}
+
+.seat.selected {
+    background-color: green;
+    color: white;
+}
+
+.seat.reserved {
+    background-color: red;
+    color: white;
+    cursor: not-allowed;
+}
+
+.proceed-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

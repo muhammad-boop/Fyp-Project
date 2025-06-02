@@ -1,0 +1,31 @@
+.ticket-container {
+  padding: 20px;
+}
+
+.search-controls {
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-card {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.movie-details {
+  margin-top: 10px;
+}
+
+.book-now-btn {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  margin-left: 1rem;
+  cursor: pointer;
+}

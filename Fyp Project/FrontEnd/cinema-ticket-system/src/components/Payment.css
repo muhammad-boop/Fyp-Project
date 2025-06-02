@@ -1,0 +1,29 @@
+.payment-container {
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.payment-methods {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.payment-methods label {
+    display: block;
+    margin: 10px 0;
+}
+
+.payment-button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

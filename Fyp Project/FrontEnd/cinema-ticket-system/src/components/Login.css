@@ -1,0 +1,77 @@
+.container {
+
+
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+    /* Ensure it overlays header */
+    width: 450px;
+    text-align: center;
+    overflow-y: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+
+
+}
+
+.login-heading {
+    text-align: center;
+}
+
+.login-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.forget-password {
+    color: #752bdf;
+}
+
+.forget-password:hover {
+    cursor: pointer;
+}
+
+.login-with {
+    width: 250px;
+
+    display: flex;
+    gap: 18px;
+    align-self: center;
+    align-content: center;
+}
+
+.login-with {
+    cursor: pointer;
+}
+
+.loginwith-icon {
+    font-size: 24px;
+}
+
+.dont-account {
+    margin-top: 20px;
+    align-self: center;
+}
+
+span {
+    color: #752bdf;
+}
+
+span {
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 300px;
+    }
+}
